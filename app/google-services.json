@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "445104531930",
+    "firebase_url": "https://recruitmentapp-dc175.firebaseio.com",
+    "project_id": "recruitmentapp-dc175",
+    "storage_bucket": "recruitmentapp-dc175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445104531930:android:0546b2a71f2f3283",
+        "android_client_info": {
+          "package_name": "app.bootcamp.com.recruitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445104531930-k9dl1i5bm138iao797aj42nknnif47le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.bootcamp.com.recruitapp",
+            "certificate_hash": "a18d9f7755cfba4d79522f6ff3984e1a582a0755"
+          }
+        },
+        {
+          "client_id": "445104531930-t1799t44dojcuuo7u56sc2acja3aqakc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "445104531930-t1799t44dojcuuo7u56sc2acja3aqakc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCve-APpjFwIRkdOSOEJ3RcEGlISBR5L-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445104531930-t1799t44dojcuuo7u56sc2acja3aqakc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

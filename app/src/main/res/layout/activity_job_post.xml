@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="app.bootcamp.com.recruitapp.activities.JobPostActivity"
+        >
+
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:inputType="text"
+            android:id="@+id/job"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Job"/>
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/typ"
+            android:inputType="text"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Post type"/>
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/ex"
+            android:inputType="text"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience "/>
+        <EditText
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:id="@+id/sal_com"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salary"/>
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/tpy_com"
+            android:inputType="text"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Type"/>
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/indus"
+            android:inputType="text"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Industry"/>
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/jb_desc"
+            android:inputType="textLongMessage|textMultiLine"
+            android:layout_marginTop="12sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Description"/>
+
+        <Button
+            android:id="@+id/post"
+            android:background="@drawable/ripple"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="34sp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"/>
+    </LinearLayout>
+</ScrollView>

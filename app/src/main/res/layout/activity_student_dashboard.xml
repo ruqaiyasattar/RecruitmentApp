@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    tools:actionBarNavMode="tabs"
+    android:background="@color/back"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".activities.StudentDashboardActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabslayout"
+        android:background="@color/darkgry"
+        app:siIndicatorColors="@array/colors"
+        app:siTextColor="@android:color/black"
+        app:siSelectedTextColor="@android:color/black"
+        app:siIndicatorColor="@color/darkorg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stubviewPagerLayout"
+        />
+
+
+</LinearLayout>

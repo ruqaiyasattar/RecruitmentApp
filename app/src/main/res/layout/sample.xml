@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sample"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/delripple"
+            android:text="DELETE"
+            android:id="@+id/DelPro"/>
+
+    </LinearLayout>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:padding="40dp"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:padding="16dp"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#e9f1f2"
+                    >
+
+                    <LinearLayout
+                        android:background="#eaf5f5f5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/namedata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5sp"
+                            android:text="Company name"
+                            android:textAllCaps="true"
+                            android:textSize="12sp"
+                            android:textStyle="bold|normal|italic"/>
+                        <TextView
+                            android:id="@+id/emaildata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="email"
+                            android:textSize="12sp"
+                            android:textStyle="italic"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/locationdata"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="city"
+                                android:textSize="12sp"
+                                android:textStyle="italic"/>
+
+
+                            <TextView
+                                android:id="@+id/contactdata"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="contact"
+                                android:textSize="12sp"
+                                android:textStyle="italic"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/aboutdata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3sp"
+                            android:text="about"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/showimg"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center|end"
+                    android:src="@drawable/recruitee"
+                    app:civ_border_color="#fb7704"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#fcbc77"
+                    app:civ_shadow_radius="10"/>
+            </FrameLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</com.daimajia.swipe.SwipeLayout>
